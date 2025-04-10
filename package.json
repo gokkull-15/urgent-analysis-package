@@ -1,0 +1,25 @@
+{
+  "name": "urgent-analysis",
+  "version": "1.0.0",
+  "description": "A powerful toolkit for emergency reporting including FIR filing, raising complaints, emergency calls, and analyzing word severity.",
+  "main": "index.js",
+  "bin": {
+    "urgent-analysis": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "emergency",
+    "FIR",
+    "complaint",
+    "call",
+    "word-analysis",
+    "analysis",
+    "critical",
+    "harsh-language",
+    "node-package"
+  ],
+  "author": "Fortiv",
+  "license": "MIT"
+}
