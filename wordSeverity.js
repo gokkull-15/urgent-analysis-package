@@ -1,12 +1,12 @@
 const wordBank = {
-    harsh: ['stupid', 'idiot', 'useless'],
-    medium: ['annoying', 'bad', 'poor'],
-    critical: ['danger', 'attack', 'kill'],
+    low: ['stupid', 'idiot', 'useless', 'fight', 'gang war', 'water problem'],
+    medium: ['annoying', 'bad', 'poor', 'robbery', 'theft', 'accident'],
+    critical: ['danger', 'attack', 'kill', 'murder', 'gun shot', 'emergency'],
   };
   
   function analyzeWords(inputText) {
     const foundWords = {
-      harsh: [],
+      low: [],
       medium: [],
       critical: [],
     };
